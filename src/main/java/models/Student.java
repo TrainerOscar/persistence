@@ -5,11 +5,12 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Entity
-@Getter @Setter 
+@Getter @Setter
 @Table (name = "students")
-
+@ToString
 public class Student {
 
     @Id
